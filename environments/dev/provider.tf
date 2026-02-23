@@ -17,7 +17,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket         = "tinobrace-terraform-state-bucket-2026"
-    key            = "ssm-lab/terraform.tfstate"
+    key            = "ssm-lab/dev/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-state-locks"
     encrypt        = true
