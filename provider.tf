@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  profile = "terraform-ssm"
+  profile = "terraform-ssm-lab"
 }
 
 terraform {
